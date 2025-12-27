@@ -1,126 +1,98 @@
-# Caner Dev - Kişisel Web Sitesi
+Caner Dev — Personal Website
 
-Modern ve koyu temalı bir kişisel web sitesi. Blog yazıları, projeler ve hakkımda bölümleri içerir.
+A modern, performance-focused personal website built with Next.js to showcase my frontend development skills, projects, and technical background.
 
-## 🚀 Özellikler
+This project is designed to reflect my approach to clean UI, responsive design, and scalable frontend architecture, while also serving as a personal portfolio website.
 
-- ✨ Modern ve responsive tasarım
-- 🌙 Koyu tema (Dark Mode)
-- 📝 Blog yazı sistemi
-- 💼 Proje portfolyosu
-- 🎨 Tailwind CSS ile özelleştirilmiş tasarım
-- ⚡ Next.js 14 App Router
-- 🔷 TypeScript desteği
-- 🎯 SEO optimizasyonu
-- 🎭 Smooth animasyonlar
+🚀 Features
+✨ Modern and minimal UI
+🌙 Dark mode support
+📝 Blog section
+💼 Project showcase
+🎨 Fully customized with Tailwind CSS
+⚡ Built with Next.js 14 (App Router)
+🔷 TypeScript support
+🎯 SEO optimized
+🎭 Smooth animations & transitions
+📱 Fully responsive design
+🛠️ Tech Stack
 
-## 🛠️ Teknolojiler
+Framework: Next.js 14
+Language: TypeScript
+Styling: Tailwind CSS
+Icons: Lucide React
+Deployment: Vercel
 
-- **Framework:** Next.js 14
-- **Dil:** TypeScript
-- **Styling:** Tailwind CSS
-- **İkonlar:** Lucide React
-- **Deployment:** Vercel (önerilir)
-
-## 📦 Kurulum
-
-1. Projeyi klonlayın:
-\`\`\`bash
+📦 Installation
+Clone the repository and run it locally:
 git clone <repo-url>
-cd canerdev.com
-\`\`\`
-
-2. Bağımlılıkları yükleyin:
-\`\`\`bash
+cd canerdev
 npm install
-# veya
-yarn install
-# veya
-pnpm install
-\`\`\`
-
-3. Geliştirme sunucusunu başlatın:
-\`\`\`bash
 npm run dev
-# veya
-yarn dev
-# veya
-pnpm dev
-\`\`\`
 
-4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-## 📁 Proje Yapısı
-
-\`\`\`
-canerdev.com/
+Then open:
+http://localhost:3000
+📁 Project Structure
+canerdev/
 ├── app/                    # Next.js App Router
-│   ├── layout.tsx         # Ana layout
-│   ├── page.tsx           # Ana sayfa
-│   ├── globals.css        # Global stiller
-│   ├── blog/              # Blog sayfaları
-│   ├── projects/          # Projeler sayfası
-│   └── about/             # Hakkımda sayfası
-├── components/            # React bileşenleri
-│   ├── Navigation.tsx     # Navigasyon bileşeni
-│   └── Footer.tsx         # Footer bileşeni
-├── public/                # Statik dosyalar
-├── tailwind.config.ts     # Tailwind yapılandırması
-├── tsconfig.json          # TypeScript yapılandırması
-└── package.json           # Proje bağımlılıkları
-\`\`\`
+│   ├── layout.tsx         # Main layout
+│   ├── page.tsx           # Homepage
+│   ├── globals.css        # Global styles
+│   ├── blog/              # Blog pages
+│   ├── projects/          # Project pages
+│   └── about/             # About page
+├── components/            # Reusable components
+│   ├── Navigation.tsx
+│   └── Footer.tsx
+├── public/                # Static assets
+├── tailwind.config.ts     # Tailwind configuration
+├── tsconfig.json          # TypeScript config
+└── package.json
 
-## 🎨 Özelleştirme
-
-### Renkler
-
-Tailwind konfigürasyonunu düzenleyerek renkleri özelleştirebilirsiniz:
-
-\`\`\`typescript
+🎨 Customization
+Colors
+You can easily customize the theme colors from:
 // tailwind.config.ts
 theme: {
   extend: {
     colors: {
       primary: {
-        // Özel renkleriniz
+        // custom colors
       }
     }
   }
 }
-\`\`\`
 
-### İçerik
+Content
+Blog posts → app/blog/page.tsx
+Projects → app/projects/page.tsx
+About section → app/about/page.tsx
 
-- Blog yazılarını \`app/blog/page.tsx\` dosyasından düzenleyebilirsiniz
-- Projeleri \`app/projects/page.tsx\` dosyasından güncelleyebilirsiniz
-- Kişisel bilgilerinizi \`app/about/page.tsx\` dosyasından değiştirebilirsiniz
+🚀 Deployment
+This project is deployed using Vercel.
 
-## 🚀 Deployment
+Steps:
+Push the project to GitHub
+Import repository on Vercel
+Deploy with one click
 
-### Vercel
+✔️ Automatic CI/CD
+✔️ HTTPS enabled
+✔️ Optimized for performance
 
-En kolay deployment yöntemi Vercel kullanmaktır:
+🎯 Purpose of This Project
 
-1. [Vercel](https://vercel.com) hesabı oluşturun
-2. Projeyi GitHub'a yükleyin
-3. Vercel'de "Import Project" seçeneğini kullanın
-4. Otomatik deployment yapılacaktır
+This project was built to:
+Demonstrate my frontend development skills
+Showcase modern UI/UX practices
+Highlight my experience with Next.js and React
+Serve as a professional portfolio website
+It is not intended for production use, but as a technical and visual showcase.
 
-### Diğer Platformlar
+📬 Contact
+🌐 Website: https://canerdev.com
+🐙 GitHub: https://github.com/Canerdde
+💼 LinkedIn: https://linkedin.com
 
-Next.js, Netlify, Railway, Render gibi platformlarda da çalışır.
-
-## 📝 Lisans
-
-Bu proje kişisel kullanım için oluşturulmuştur.
-
-## 💬 İletişim
-
-- Website: [canerdev.com](https://canerdev.com)
-- GitHub: [@canerdev](https://github.com)
-- LinkedIn: [Caner Dev](https://linkedin.com)
-
----
-
-Made with ❤️ and Next.js
-
+⭐ If you like this project, feel free to give it a star!
